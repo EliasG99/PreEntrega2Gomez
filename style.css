@@ -219,7 +219,9 @@ footer{
     color: black;
     font-weight: bold;
 }
-
+.mapa iframe{
+     width: 370px;
+}
 @media (min-width: 768px) {
    html, body{
     height: 1600px;
@@ -276,5 +278,11 @@ footer{
     }
     .section-1 input[type="button"]:hover{
         padding: 15px;
+       }
+       .service{
+        margin-top: 150px;
+       }
+       .mapa iframe{
+        width: 100%;
        }
   }
